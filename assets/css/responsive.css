@@ -1,0 +1,586 @@
+/*==================================================
+RESPONSIVE
+Author : Highfield Holiday Home
+==================================================*/
+/*=============================================
+1400px
+=============================================*/
+@media (max-width:1400px){
+.container{
+    width:min(1200px,92%);
+}
+.hero-title{
+    font-size:92px;
+}
+.editorial-grid{
+    gap:80px;
+}
+.room-showcase{
+    gap:60px;
+}
+.dining-grid{
+    gap:70px;
+}
+}
+/*=============================================
+1200px
+=============================================*/
+@media (max-width:1200px){
+.hero{
+    min-height:850px;
+}
+.hero-title{
+    font-size:76px;
+}
+.hero-house{
+    width:52vw;
+}
+.weather-card{
+    right:40px;
+    width:240px;
+}
+.hero-footer{
+    gap:50px;
+}
+.hero-footer strong{
+    font-size:24px;
+}
+.editorial-grid{
+    grid-template-columns:1fr;
+}
+.editorial-images{
+    order:2;
+}
+.editorial-content{
+    order:1;
+    max-width:900px;
+}
+.about-editorial{
+    padding:140px 0;
+}
+.journey-item{
+    gap:60px;
+}
+.journey-image img{
+    height:520px;
+}
+.room-showcase{
+    grid-template-columns:1fr;
+}
+.room-showcase.reverse{
+    grid-template-columns:1fr;
+}
+.room-showcase.reverse .room-image{
+    order:1;
+}
+.room-showcase.reverse .room-content{
+    order:2;
+}
+.room-image img{
+    height:650px;
+}
+.dining-grid{
+    grid-template-columns:1fr;
+}
+.dining-images{
+    order:1;
+}
+.dining-content{
+    order:2;
+}
+.experience-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+.experience-box.large{
+    grid-column:span 2;
+}
+.events-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+.gallery-masonry{
+    grid-template-columns:repeat(3,1fr);
+}
+.location-grid{
+    grid-template-columns:1fr;
+}
+.footer-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+}
+/*=============================================
+992px
+=============================================*/
+@media (max-width:992px){
+html{
+    font-size:15px;
+}
+.header .container{
+    padding:18px 20px;
+}
+.header nav{
+    display:none;
+}
+.hero{
+    min-height:100vh;
+    text-align:center;
+}
+.hero-container{
+    align-items:center;
+}
+.hero-title{
+    font-size:64px;
+}
+.hero-text{
+    max-width:700px;
+}
+.hero-buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.hero-house{
+    width:70vw;
+}
+.weather-card{
+    position:relative;
+    top:auto;
+    right:auto;
+    transform:none;
+    margin:60px auto 0;
+}
+.hero-footer{
+    position:relative;
+    margin-top:60px;
+    bottom:auto;
+    flex-wrap:wrap;
+    gap:35px;
+    padding-bottom:50px;
+}
+.scroll-indicator{
+    display:none;
+}
+.section-heading h2{
+    font-size:56px;
+}
+.editorial-content h2{
+    font-size:54px;
+}
+.image-large{
+    width:100%;
+}
+.image-small{
+    display:none;
+}
+.floating-award{
+    left:20px;
+    bottom:20px;
+}
+.stats-section{
+    padding:70px 0;
+}
+.stat-box{
+    margin-bottom:40px;
+}
+.stat-box::after{
+    display:none;
+}
+.about-highlights{
+    grid-template-columns:1fr;
+}
+.journey-line{
+    left:30px;
+}
+.journey-item{
+    grid-template-columns:1fr;
+    margin-left:70px;
+    margin-bottom:100px;
+}
+.journey-item.reverse{
+    direction:ltr;
+}
+.journey-image img{
+    height:420px;
+}
+.journey-text h3{
+    font-size:42px;
+}
+.cinema-content h2{
+    font-size:60px;
+}
+.room-content h3{
+    font-size:52px;
+}
+.room-meta{
+    grid-template-columns:repeat(2,1fr);
+}
+.main-food{
+    height:520px;
+}
+.floating-food{
+    width:220px;
+    right:20px;
+}
+.experience-grid{
+    grid-template-columns:1fr;
+}
+.experience-box.large{
+    grid-column:auto;
+    height:450px;
+}
+.events-grid{
+    grid-template-columns:1fr;
+}
+.gallery-masonry{
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows:220px;
+}
+.booking-content h2{
+    font-size:60px;
+}
+.footer-bottom{
+    flex-direction:column;
+    gap:15px;
+    text-align:center;
+}
+}
+/*=============================================
+768px
+=============================================*/
+@media (max-width:768px){
+:root{
+    --section-space:90px;
+}
+body{
+    overflow-x:hidden;
+}
+.section-padding,
+.about-editorial,
+.rooms-editorial,
+.dining-editorial,
+.experiences-editorial,
+.gallery-editorial,
+.location-section,
+.testimonial-editorial,
+.events-editorial{
+    padding:90px 0;
+}
+/* Header */
+.header{
+    padding:15px 0;
+}
+.logo img{
+    width:150px;
+}
+.btn-book{
+    display:none;
+}
+/* Hero */
+.hero{
+    min-height:850px;
+}
+.hero-container{
+    padding-top:120px;
+}
+.hero-subtitle{
+    font-size:12px;
+    letter-spacing:2px;
+}
+.hero-title{
+    font-size:48px;
+    line-height:1.05;
+}
+.hero-text{
+    font-size:17px;
+    line-height:1.8;
+}
+.hero-buttons{
+    flex-direction:column;
+    width:100%;
+}
+.hero-buttons a{
+    width:100%;
+    justify-content:center;
+}
+.hero-house{
+    width:90vw;
+}
+.weather-card{
+    width:100%;
+    max-width:330px;
+    padding:30px;
+}
+.hero-footer{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    width:100%;
+}
+.hero-footer strong{
+    font-size:22px;
+}
+.hero-footer span{
+    font-size:14px;
+}
+/* About */
+.editorial-content h2{
+    font-size:42px;
+}
+.editorial-content .lead{
+    font-size:20px;
+}
+.editorial-images{
+    min-height:auto;
+}
+.image-large img{
+    height:500px;
+}
+.floating-award{
+    padding:20px;
+}
+.floating-award h3{
+    font-size:42px;
+}
+/* Journey */
+.journey-header h2{
+    font-size:46px;
+}
+.journey-item{
+    margin-left:0;
+}
+.journey-line{
+    display:none;
+}
+.journey-text h3{
+    font-size:34px;
+}
+.journey-image img{
+    height:320px;
+}
+/* Cinema */
+.cinema-content{
+    padding:0 20px;
+}
+.cinema-content h2{
+    font-size:46px;
+}
+.cinema-content p{
+    font-size:18px;
+}
+/* Rooms */
+.section-heading h2{
+    font-size:44px;
+}
+.room-image img{
+    height:420px;
+}
+.room-content h3{
+    font-size:40px;
+}
+.room-meta{
+    grid-template-columns:1fr;
+}
+.room-action{
+    flex-direction:column;
+    align-items:flex-start;
+}
+/* Dining */
+.main-food{
+    height:420px;
+}
+.floating-food{
+    display:none;
+}
+.dining-content h2{
+    font-size:42px;
+}
+.meal-item{
+    flex-direction:column;
+}
+/* Experiences */
+.experience-box{
+    height:300px;
+}
+.experience-box.large{
+    height:380px;
+}
+/* Gallery */
+.gallery-masonry{
+    grid-template-columns:1fr;
+}
+.gallery-item,
+.gallery-item.tall,
+.gallery-item.wide{
+    grid-column:auto;
+    grid-row:auto;
+    height:280px;
+}
+/* Testimonials */
+.testimonial-card{
+    padding:35px;
+}
+.testimonial-card p{
+    font-size:18px;
+}
+/* Location */
+.location-map iframe{
+    height:380px;
+}
+.booking-content h2{
+    font-size:46px;
+}
+.booking-buttons{
+    flex-direction:column;
+}
+/* Footer */
+.footer{
+    padding:70px 0 30px;
+}
+.footer-grid{
+    grid-template-columns:1fr;
+    gap:45px;
+}
+.footer-logo{
+    width:160px;
+}
+.footer-social{
+    justify-content:flex-start;
+}
+}
+/*=============================================
+576px
+=============================================*/
+@media (max-width:576px){
+.container{
+    width:92%;
+}
+.hero{
+    min-height:760px;
+}
+.hero-title{
+    font-size:40px;
+}
+.hero-text{
+    font-size:16px;
+}
+.hero-footer{
+    grid-template-columns:1fr;
+}
+.weather-card{
+    max-width:100%;
+}
+.section-heading h2,
+.editorial-content h2,
+.dining-content h2,
+.booking-content h2{
+    font-size:38px;
+}
+.journey-header h2{
+    font-size:40px;
+}
+.room-content h3{
+    font-size:34px;
+}
+.room-action h4{
+    font-size:40px;
+}
+.location-grid{
+    gap:35px;
+}
+.info-card{
+    padding:22px;
+}
+.nearby{
+    padding:25px;
+}
+}
+/*=============================================
+480px
+=============================================*/
+@media (max-width:480px){
+.hero-title{
+    font-size:34px;
+}
+.hero-subtitle{
+    font-size:11px;
+}
+.hero-text{
+    font-size:15px;
+}
+.hero-house{
+    width:100vw;
+}
+.weather-card{
+    padding:25px;
+}
+.weather-card h3{
+    font-size:46px;
+}
+.editorial-content h2{
+    font-size:34px;
+}
+.section-heading h2{
+    font-size:34px;
+}
+.room-image img{
+    height:300px;
+}
+.main-food{
+    height:300px;
+}
+.cinema-content h2{
+    font-size:34px;
+}
+.cinema-content p{
+    font-size:16px;
+}
+.experience-box.large{
+    height:320px;
+}
+.experience-box{
+    height:240px;
+}
+.booking-content p{
+    font-size:17px;
+}
+#backToTop,
+.whatsapp-float{
+    width:50px;
+    height:50px;
+    right:20px;
+}
+#backToTop{
+    bottom:90px;
+}
+.whatsapp-float{
+    bottom:20px;
+}
+}
+/*=============================================
+360px
+=============================================*/
+@media (max-width:360px){
+.hero-title{
+    font-size:30px;
+}
+.section-heading h2{
+    font-size:30px;
+}
+.editorial-content h2{
+    font-size:30px;
+}
+.hero-buttons a{
+    padding:15px 20px;
+}
+.weather-card{
+    padding:18px;
+}
+.info-card{
+    flex-direction:column;
+    text-align:center;
+}
+.info-card i{
+    margin:auto;
+}
+.footer-bottom{
+    font-size:13px;
+}
+}
